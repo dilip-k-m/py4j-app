@@ -9,7 +9,7 @@ def decrypt_payload(encrypted_payload):
         '-XX:+UseShenandoahGC',
         '-XX:+UnlockExperimentalVMOptions',
         '-jar',
-        'decrypter.jar',
+        'target/decryptor-1.0.0.jar',
         encrypted_payload
     ]
 
